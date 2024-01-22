@@ -4,9 +4,10 @@ spring:
     username: root
     password: "Samateh2002"
     driver-class-name: com.mysql.cj.jdbc.Driver
-
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
 
+quizapi:
+  token: 'GfgEkBbhzOrsgYsWHAEkwnnptkgTVIOrJ4KgIMdN'

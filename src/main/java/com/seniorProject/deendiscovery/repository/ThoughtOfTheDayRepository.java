@@ -10,4 +10,5 @@ import java.util.Optional;
 public interface ThoughtOfTheDayRepository extends JpaRepository<ThoughtOfTheDay, Long> {  // connects the model to the database using the model and the primary key
       Optional<ThoughtOfTheDay> findById(Long id); // creates a method defintiiton
 
+
 }
