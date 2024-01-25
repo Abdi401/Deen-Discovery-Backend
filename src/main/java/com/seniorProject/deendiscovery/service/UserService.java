@@ -1,5 +1,6 @@
 
 package com.seniorProject.deendiscovery.service;
+import com.seniorProject.deendiscovery.model.ThoughtOfTheDay;
 import com.seniorProject.deendiscovery.model.User;
 import com.seniorProject.deendiscovery.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
@@ -17,6 +18,10 @@ public class UserService {
     public User retrieveUser(Long id) {
         return userRepository.findById(id).get();
     }
+    public User retrieveThoughtOfTheDay(Long id) {
+        return userRepository.findById(id).get();
+    }
+
 }
 
 
