@@ -1,9 +1,10 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/deen-discovery-db
+    url: jdbc:mysql://localhost:3306/deendiscoverydb
     username: root
-    password: "Samateh2002"
+    password: "Marwa98516$u"
     driver-class-name: com.mysql.cj.jdbc.Driver
+
   jpa:
     hibernate:
       ddl-auto: update
@@ -11,3 +12,4 @@ spring:
 
 quizapi:
   token: 'GfgEkBbhzOrsgYsWHAEkwnnptkgTVIOrJ4KgIMdN'
+
